@@ -6,27 +6,22 @@ class Chok
 		self.cost = cost
 		self.name = name
 
-
-
-
-
-
-
-
 	def printinfo(self)
-		print(Цена ,self.cost,  , Шоколадка , self.name)
+		print(Г–ГҐГ­Г  ,self.cost,  , ГГ®ГЄГ®Г«Г Г¤ГЄГ  , self.name)
 
+		
 class Iterator
 	def iterateChok(self, count)
-		list = [Сникерс, Марс, Твикс, Натс]
+		list = [Г‘Г­ГЁГЄГҐГ°Г±, ГЊГ Г°Г±, Г’ГўГЁГЄГ±, ГЌГ ГІГ±]
 		for i in list
-
 			chok = Chok(random.randint(40, 70), i)
 			chok.printinfo()
 
+			
 def main()
 	iterator = Iterator()
 	iterator.iterateChok(10)
+
 
 if __name__ == __main__
 	main()
